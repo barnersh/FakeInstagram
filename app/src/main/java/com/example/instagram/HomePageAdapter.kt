@@ -2,6 +2,7 @@ package com.example.instagram
 
 import com.example.instagram.View.ProfileActivity
 import android.content.Intent
+import android.os.Build
 import android.support.v7.widget.RecyclerView
 import android.view.View
 import android.view.ViewGroup
@@ -47,6 +48,9 @@ class HomePageAdapter(
         //get last item in array
         iView.glide(p0.img_content, objArr[p1].contentPic[0])
         p0.tv_content.setText(objArr[p1].content[0])
+        p0.tv_content.setOnClickListener {
+            iPresenter.changeMaxLine(p0.tv_content)
+        }
     }
 
     class ViewHolder(v: View) : RecyclerView.ViewHolder(v) {

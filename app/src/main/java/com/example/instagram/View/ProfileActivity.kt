@@ -4,10 +4,13 @@ import android.content.Context
 import com.example.instagram.FragmentAdapter
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v4.view.ViewPager
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import android.widget.ImageView
+import android.widget.ScrollView
 import com.bumptech.glide.Glide
 import com.example.instagram.Model.IModel
 import com.example.instagram.Model.Model
@@ -42,14 +45,12 @@ class ProfileActivity : AppCompatActivity(), IView {
         setContentView(R.layout.activity_profile)
 
         thisUser = intent.getStringExtra("name")
+        //toolbar
         setSupportActionBar(toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.title = thisUser
 
         userArr = iModel.passObjArr()
-
-        Log.d("size", userArr.size.toString())
-
 
         tv_profile.text = userArr[iPresenter.findCurrentUser(thisUser)].profile
         glide(img_user, userArr[iPresenter.findCurrentUser(thisUser)].shot)

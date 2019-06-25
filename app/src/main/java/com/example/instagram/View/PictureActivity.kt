@@ -1,5 +1,6 @@
 package com.example.instagram.View
 
+import android.os.Build
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -22,6 +23,7 @@ class PictureActivity : AppCompatActivity(), IView {
 
     override fun glide(img: ImageView, res: Int) {
     }
+
     //--------------------------------------------------------------
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -48,6 +50,10 @@ class PictureActivity : AppCompatActivity(), IView {
             .load(userArr[thisUserNum].contentPic.get(numClick))
             .into(img_content)
         tv_content.text = resources.getString(userArr[thisUserNum].content.get(numClick))
+
+        tv_content.setOnClickListener {
+            iPresenter.changeMaxLine(tv_content)
+        }
     }
 
     override fun onBackPressed() {

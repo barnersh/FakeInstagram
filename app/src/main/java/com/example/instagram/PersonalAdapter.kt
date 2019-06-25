@@ -1,6 +1,7 @@
 package com.example.instagram
 
 import android.app.Activity
+import android.os.Build
 import android.support.v4.app.Fragment
 import android.support.v7.widget.RecyclerView
 import android.view.View
@@ -52,6 +53,9 @@ class PersonalAdapter(val userArr: ArrayList<User>, val userNum: Int, val fragme
                 .load(userArr[userNum].contentPic.get(p1))
                 .into(p0.img_content)
             p0.tv_content.setText(userArr[userNum].content.get(p1))
+            p0.tv_content.setOnClickListener {
+                iPresenter.changeMaxLine(p0.tv_content)
+            }
         }
     }
 
