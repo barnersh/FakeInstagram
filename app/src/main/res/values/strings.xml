@@ -1,0 +1,332 @@
+<resources>
+    <string name="app_name">Instagram</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="profile1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Suspendisse quis nibh bibendum, malesuada tellus non, tempor risus.
+        Ut nec mi id mauris varius euismod ut vel velit.
+        Nulla vitae lectus sed erat tincidunt interdum ut sit amet lacus.
+    </string>
+    <string name="profile2">Nam dignissim arcu sed nulla condimentum efficitur.
+        In finibus tortor vel nisi hendrerit volutpat.
+        Mauris non nulla blandit felis lacinia pretium ut eget magna.
+        Morbi non eros eu massa interdum vehicula ac ut enim.
+        Vestibulum vel lacus et est dictum malesuada eu dapibus lorem.
+    </string>
+    <string name="profile3">In ac elit sit amet odio tempor congue sed et elit.
+        Nunc facilisis lectus at neque sollicitudin, et varius dui mattis.
+        Pellentesque varius nibh sed ultricies venenatis.
+    </string>
+    <string name="profile4">Quisque rhoncus erat a placerat lacinia.
+        Donec vitae urna tempor, egestas tellus at, lobortis urna.
+        Vestibulum ac justo sit amet magna semper interdum ut eu purus.
+        Fusce vitae nisi vel nisi varius convallis.
+        Aenean eget ligula egestas, condimentum risus at, dignissim arcu.
+        Ut interdum purus sed eros congue, sed fringilla enim semper.
+    </string>
+    <string name="profile5">Etiam gravida ante id tortor interdum, et facilisis mi posuere.
+        Pellentesque at ligula et turpis varius mollis.
+    </string>
+    <string name="profile6">Morbi sit amet tellus malesuada, convallis nulla ut, consectetur odio.
+        Donec vulputate tellus vestibulum ligula tincidunt, vel rhoncus nunc condimentum.
+        Aliquam ut nulla gravida, ullamcorper ante laoreet, tincidunt nisi.
+        Suspendisse aliquam lectus eget mollis efficitur.
+        Curabitur quis tortor sit amet libero eleifend consectetur.
+    </string>
+    <string name="profile7">Nulla tempus erat vitae lacinia ultricies.</string>
+    <string name="profile8">Proin vestibulum urna ut justo ornare, maximus luctus diam dignissim.
+        Mauris tempus quam vel mollis tristique.
+        Vivamus eu nulla at erat efficitur volutpat.
+        Vestibulum eu sem eu sem cursus rutrum eu vitae sapien.
+        Cras pretium sem sit amet sodales scelerisque.
+    </string>
+    <string name="profile9">Fusce dapibus nisl vel ligula auctor, a ultrices augue volutpat.
+        Praesent mattis eros a ligula tristique pretium.
+        Quisque quis ligula suscipit enim lobortis interdum suscipit posuere est.
+        Phasellus sodales nunc at dolor laoreet, id congue enim fermentum.
+        Morbi ut eros sed augue condimentum lobortis vitae et nisi.
+        Nulla in felis ut odio ultrices commodo.
+    </string>
+    <string name="profile10">Donec eget massa eget dolor mollis suscipit.
+        Nunc accumsan est eu est pretium, dictum pharetra urna facilisis.
+    </string>
+    <string name="profile11">Nulla vitae turpis et lorem commodo convallis sit amet nec arcu.
+        Praesent tempor tortor nec rhoncus posuere.
+    </string>
+    <string name="profile12">Integer volutpat justo eget nulla lobortis venenatis.
+        Morbi dignissim sem ut luctus auctor.
+        Suspendisse vitae mi non turpis elementum molestie vel vel odio.
+    </string>
+    <string name="profile13">Sed laoreet felis a convallis vestibulum.
+        Sed quis mauris venenatis, faucibus velit vitae, blandit magna.
+        Mauris iaculis felis a enim varius semper.
+    </string>
+    <string name="profile14">Duis molestie purus quis enim ultricies, quis condimentum dui lobortis.
+        Nulla vehicula lacus eu accumsan pharetra.
+        Maecenas euismod orci eget enim rutrum, vitae placerat ligula porta.
+        Cras fermentum ligula a purus laoreet cursus.
+        Fusce tempus magna lacinia dolor convallis tincidunt.
+    </string>
+    <string name="profile15">Duis egestas massa vulputate, consequat nisl at, tincidunt libero.
+        Nullam eget enim sit amet purus semper volutpat et dapibus nisl.
+        Nunc non diam a metus pretium porttitor ac id enim.
+        Vivamus feugiat velit sed tortor volutpat accumsan.
+    </string>
+    <string name="profile16">Quisque vel quam scelerisque, commodo urna auctor, ultrices elit.
+        Mauris vulputate turpis sit amet pulvinar dictum.
+        Fusce commodo est eu lectus auctor ultrices.
+        Quisque pulvinar enim id dui venenatis, ac ullamcorper mi semper.
+    </string>
+    <string name="profile17">Aliquam sed lorem nec eros lacinia pulvinar.
+        In vel lectus commodo, mattis mauris at, tristique dolor.
+    </string>
+    <string name="profile18">Nam vehicula ligula ut molestie laoreet.</string>
+    <string name="profile19">Phasellus gravida leo vel lorem suscipit, sollicitudin iaculis orci commodo.</string>
+
+    <string name="content1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel odio faucibus, dictum
+        nibh mollis, semper magna. Sed ut luctus nisi. Phasellus id egestas tortor. Cras ac quam elit. Integer sed orci
+        arcu. Duis bibendum feugiat ex ultricies posuere. In maximus elementum tortor id malesuada. Curabitur eget velit
+        eget arcu lacinia fermentum. Aenean dapibus mauris id ante feugiat, a varius arcu porttitor. Nunc congue maximus
+        arcu. Fusce maximus lorem enim, sit amet mollis orci aliquam in. Fusce lectus massa, malesuada non nulla eu,
+        gravida cursus erat. Donec iaculis sit amet lorem a aliquet. Mauris eu erat nec magna sollicitudin ultrices sit
+        amet vel arcu. Sed imperdiet metus ac ligula placerat varius. Mauris eleifend ex non urna imperdiet, vitae porta
+        leo imperdiet.
+    </string>
+
+    <string name="content2">Curabitur scelerisque augue vel nisl sodales, eu ornare ligula tincidunt. Praesent cursus
+        nibh ac leo tempor ultrices. Quisque dignissim mauris non porttitor imperdiet. Maecenas viverra ac ante at
+        dapibus. Mauris gravida, erat sed placerat pulvinar, augue urna dignissim libero, ut vestibulum diam metus in
+        dui. Vivamus tempor mollis aliquet. Fusce sollicitudin fringilla neque, non rutrum libero auctor mattis. Nullam
+        ac mi accumsan, commodo purus ut, gravida ipsum. Fusce viverra id diam id imperdiet. Suspendisse bibendum mi
+        arcu, a imperdiet turpis luctus eget. Aliquam erat volutpat. Vivamus ipsum lacus, viverra a ornare eu, blandit
+        in tellus. Donec in vehicula risus.
+    </string>
+
+    <string name="content3">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In
+        congue suscipit nisl, in condimentum nibh lobortis at. Sed pellentesque, nulla tincidunt elementum interdum,
+        neque diam porttitor ante, cursus lobortis felis diam ut est. Vestibulum placerat rhoncus sagittis. Nam lacinia
+        interdum ultricies. Vivamus lacinia odio sit amet erat faucibus, eget mollis ligula molestie. Maecenas id
+        vestibulum enim. Aenean viverra, leo sit amet interdum porttitor, dolor magna volutpat orci, imperdiet molestie
+        erat dolor non justo.
+    </string>
+
+    <string name="content4">Suspendisse pretium elementum velit, in venenatis diam porta et. Curabitur finibus maximus
+        neque non vulputate. Nunc commodo arcu felis, nec malesuada tortor volutpat sit amet. Nulla eget urna et mi
+        hendrerit porta. Vestibulum nec diam id orci congue blandit vitae nec mi. Vestibulum bibendum ipsum neque, eget
+        feugiat lectus sollicitudin luctus. Integer sed justo eu purus vulputate mollis. Fusce ante ante, consequat sed
+        nibh et, fermentum convallis mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+        cubilia Curae; Ut ut sagittis purus. Duis tincidunt facilisis erat eget blandit. Ut malesuada vehicula pulvinar.
+    </string>
+
+    <string name="content5">Fusce a purus sem. Integer eleifend nisl at odio maximus, posuere suscipit lorem ultricies.
+        Nullam ac ipsum placerat, consectetur erat rutrum, efficitur mauris. Quisque pellentesque pretium viverra. Nulla
+        suscipit blandit lacus, non accumsan velit tristique ut. Sed mattis dapibus dolor eget sodales. Praesent
+        consectetur elit id mollis auctor. Mauris ac nisl pellentesque, auctor lacus nec, vulputate nisi. Aliquam nibh
+        nibh, vestibulum sit amet suscipit eget, ultricies a sapien. Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit. Donec commodo, lacus vel fermentum feugiat, tellus leo ullamcorper turpis, ut dignissim sem ante eu orci.
+        Aenean egestas nisi at metus commodo, ac commodo erat cursus. Suspendisse potenti.
+    </string>
+
+    <string name="content6">Quisque vehicula nulla vel sem rhoncus lobortis. Morbi porta augue dui, at semper ligula
+        volutpat ac. Quisque bibendum ipsum eget pharetra laoreet. Pellentesque id porta velit, nec vestibulum lorem.
+        Cras in est id orci vehicula molestie. Praesent vitae viverra lacus. Praesent ullamcorper molestie risus, eget
+        volutpat diam luctus eget. Donec quis convallis dui, at pretium arcu. Donec congue porta efficitur. In hac
+        habitasse platea dictumst. Etiam aliquam justo in dolor bibendum sagittis eget consectetur arcu. Sed varius quam
+        pulvinar nunc pellentesque, non gravida lacus aliquam. Nunc et ultrices neque, ullamcorper rhoncus leo.
+    </string>
+
+    <string name="content7">Integer lobortis nec augue sit amet pretium. Integer euismod bibendum aliquam. In hac
+        habitasse platea dictumst. Quisque et feugiat purus, vel feugiat risus. Fusce et ante tortor. Cras lobortis nunc
+        a justo consectetur malesuada. Nullam mi lectus, semper vitae fringilla elementum, tristique at enim. Vestibulum
+        eu lectus lacinia, luctus arcu quis, imperdiet eros. Donec suscipit ac nisl quis consectetur. Pellentesque
+        ornare odio vitae suscipit sollicitudin. Donec at suscipit nisl, eget fermentum tellus.
+    </string>
+
+    <string name="content8">Nulla elementum nibh velit, eget egestas diam lacinia euismod. Curabitur aliquam ante nulla,
+        vel lobortis erat cursus nec. Morbi et commodo purus, in dictum sapien. Donec hendrerit ligula orci, at egestas
+        dolor semper vitae. Nam ut placerat justo, a efficitur tortor. Morbi eget porta diam. Vivamus quis arcu semper,
+        hendrerit lacus nec, sagittis ipsum. Aenean placerat commodo cursus. Donec lacus velit, malesuada a mauris sed,
+        lacinia pretium augue. Nunc ultricies tortor id faucibus rhoncus. Vivamus in magna vel nisi efficitur sodales
+        vitae aliquet nunc. Donec id dapibus magna, eget hendrerit tellus. Integer varius dolor vitae magna feugiat, eu
+        posuere ex ultrices. Sed egestas erat ac eleifend scelerisque. In nec dignissim lorem. Aenean faucibus iaculis
+        tortor maximus aliquam.
+    </string>
+
+    <string name="content9">Curabitur lobortis feugiat est, sit amet suscipit odio consequat dignissim. Ut congue nisi
+        vitae pulvinar rhoncus. Nullam et mi pretium, rutrum libero nec, dignissim eros. Integer sollicitudin, urna et
+        euismod cursus, quam tortor hendrerit odio, nec facilisis eros lacus sed velit. Ut ac est non erat laoreet
+        varius. Suspendisse facilisis eget nunc sit amet fringilla. Pellentesque tincidunt sed leo quis dignissim.
+        Quisque malesuada mattis mattis. Integer eu molestie nulla.
+    </string>
+
+    <string name="content10">Pellentesque tincidunt lacus ac sapien laoreet, eget congue nibh fermentum. Maecenas eu
+        mattis ligula. Sed malesuada tempus diam, in malesuada purus ultricies sed. Praesent lacinia turpis purus.
+        Vivamus in viverra ante. Aenean eu venenatis enim, eget pretium massa. Vivamus efficitur justo ac urna porta
+        elementum. Nulla maximus dictum feugiat.
+    </string>
+
+    <string name="content11">Suspendisse fermentum metus et viverra imperdiet. Vestibulum ante ipsum primis in faucibus
+        orci luctus et ultrices posuere cubilia Curae; Phasellus mollis mauris nibh, a gravida nunc pharetra sed.
+        Suspendisse tincidunt luctus elementum. Mauris pharetra ultrices lacus nec mattis. Etiam urna felis, euismod a
+        euismod scelerisque, sodales eu purus. Nunc in velit sit amet orci convallis porta sit amet vitae tortor.
+        Maecenas lacinia accumsan faucibus. Suspendisse ullamcorper non ligula at ultrices. Suspendisse at purus non
+        ligula dapibus suscipit. In et neque eu dui viverra commodo. Nullam volutpat turpis mauris, quis finibus arcu
+        fringilla vitae. Mauris accumsan eu massa a porta. Cras eleifend arcu mollis, tincidunt elit rhoncus, faucibus
+        tortor. Fusce vitae tellus tincidunt, tristique lacus a, feugiat mauris. Quisque ut placerat turpis.
+    </string>
+
+    <string name="content12">Praesent ante magna, efficitur vitae tempus sed, porttitor at purus. Maecenas eu orci
+        lacus. Mauris ex metus, volutpat vehicula dolor quis, maximus fermentum ipsum. Fusce ornare sagittis mauris ut
+        tempus. Fusce justo odio, dapibus condimentum felis in, scelerisque venenatis lacus. Nam elementum felis et
+        elementum dapibus. Aliquam ut orci sed lacus sodales tempor. Sed blandit euismod mauris, eu consequat diam
+        congue a.
+    </string>
+
+    <string name="content13">Aliquam faucibus consequat nunc non tincidunt. Aenean sit amet mollis orci. Mauris eu lorem
+        sed sem ullamcorper molestie. In dictum, nisi sit amet tincidunt ultrices, augue magna malesuada ex, vel
+        bibendum ligula leo elementum mi. Sed laoreet condimentum lectus, in pharetra arcu euismod id. Mauris efficitur
+        dui id velit lobortis, eu consequat sem sodales. Aliquam egestas massa sed imperdiet sagittis. Phasellus
+        consectetur vel ligula quis dignissim.
+    </string>
+
+    <string name="content14">Donec iaculis placerat justo nec tincidunt. In id condimentum mi, nec facilisis est. Morbi
+        pulvinar dolor nec mauris posuere semper. Etiam ut dictum augue, nec consequat elit. Sed id fermentum sem. Donec
+        commodo tortor at lacus pharetra, nec dapibus nunc ullamcorper. Ut ultrices, elit ut vulputate tristique, sem
+        felis tincidunt nulla, a placerat felis risus id lacus. Nullam tincidunt tempor arcu, sodales consequat nunc
+        sollicitudin sed.
+    </string>
+
+    <string name="content15">Ut in erat eros. Nullam dignissim feugiat dictum. Quisque pretium nec odio sed feugiat. In
+        lobortis sagittis tortor id dictum. Quisque non porttitor libero. Nam bibendum ex felis, facilisis fringilla mi
+        gravida ut. Donec maximus sapien eget purus molestie pulvinar. Etiam commodo odio sem, malesuada sodales tortor
+        varius eu. Etiam condimentum tempus molestie. Donec et quam egestas, varius tortor quis, iaculis lacus. Etiam in
+        sollicitudin libero. Ut et arcu ex.
+    </string>
+
+    <string name="content16">Sed mauris nibh, eleifend nec metus et, rutrum dapibus odio. Duis ipsum nunc, blandit a
+        venenatis et, aliquam sit amet mi. Nullam nec est at lorem tristique posuere et vel nibh. Aliquam sagittis
+        pellentesque dolor nec auctor. Vivamus sed ante quis ipsum accumsan aliquam eu sit amet turpis. Ut aliquam
+        eleifend felis, vel mattis eros finibus eget. Praesent dapibus nisl augue, quis accumsan mauris gravida ut. In
+        hac habitasse platea dictumst. Pellentesque sem mi, rutrum molestie posuere vitae, cursus non magna. Maecenas in
+        dui libero.
+    </string>
+
+    <string name="content17">Donec ut nibh congue, scelerisque arcu vitae, laoreet quam. Aliquam metus lectus, tincidunt
+        eget blandit ac, luctus at orci. Pellentesque finibus elit et laoreet commodo. Nunc condimentum enim dolor, in
+        volutpat libero congue sollicitudin. Vestibulum dolor mauris, pellentesque ut lacus non, placerat dictum lectus.
+        Sed congue interdum neque, quis aliquet velit consectetur eleifend. Phasellus eget erat diam. Quisque malesuada
+        justo at neque rhoncus, vitae vehicula velit consequat. Praesent mauris tellus, rhoncus id erat vel,
+        sollicitudin venenatis nunc. Donec quis pellentesque nibh. Proin est libero, dictum sit amet neque vel, rutrum
+        ornare augue. Quisque interdum efficitur leo dignissim posuere.
+    </string>
+
+    <string name="content18">Phasellus eget luctus felis. Donec risus mi, imperdiet et dictum vitae, elementum facilisis
+        orci. Duis eget eros fermentum, euismod libero ut, porta velit. Pellentesque vestibulum orci ac maximus congue.
+        Morbi bibendum semper tempus. Donec lacinia interdum congue. Vivamus quis tellus quam. Nullam id nunc nibh.
+        Suspendisse euismod accumsan nisl ut faucibus. Mauris non nibh odio. Aenean fringilla ante posuere eros ultrices
+        faucibus. Morbi at odio sit amet massa venenatis vestibulum vitae at odio. Proin viverra enim ac aliquet
+        laoreet.
+    </string>
+
+    <string name="content19">Vivamus pharetra porttitor pellentesque. Cras dictum suscipit elit, a sodales diam feugiat
+        eget. Nam imperdiet mattis nisi in convallis. Quisque efficitur, felis vitae faucibus euismod, odio odio lacinia
+        lorem, in feugiat orci nisl eu neque. Praesent dictum aliquam velit. Aenean nec semper ligula, ac porta nisl.
+        Nunc posuere dapibus leo, quis tempor nisl hendrerit eget. Donec ac mattis nisi. Ut id nulla at massa efficitur
+        rhoncus.
+    </string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
