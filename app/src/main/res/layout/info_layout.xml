@@ -109,4 +109,9 @@
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/tv_profile" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="8dp" android:id="@+id/r_viewProfile"/>
 </android.support.constraint.ConstraintLayout>

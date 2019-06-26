@@ -1,28 +1,27 @@
 package com.example.instagram.View
 
-import android.app.ActionBar
-import android.content.Context
-import android.graphics.Color
 import android.os.Build
 import com.example.instagram.FragmentAdapter
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v4.view.ViewPager
 import android.support.v7.app.AlertDialog
+import android.support.v7.widget.LinearLayoutManager
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.ImageView
 import android.widget.LinearLayout
-import android.widget.ScrollView
 import com.bumptech.glide.Glide
+import com.bumptech.glide.request.RequestOptions
+import com.example.instagram.Adapter
 import com.example.instagram.Model.IModel
 import com.example.instagram.Model.Model
 import com.example.instagram.Model.User
 import com.example.instagram.Presenter.IPresenter
 import com.example.instagram.Presenter.Presenter
 import com.example.instagram.R
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_profile.*
 import kotlinx.android.synthetic.main.info_layout.*
 
@@ -31,6 +30,11 @@ var thisUser = ""
 class ProfileActivity : AppCompatActivity(), IView {
     //**********************************************************************
     override fun glideCircle(img: ImageView, position: Int) {
+        Glide
+            .with(this)
+            .load(iModel.passShotPicArr()[position])
+            .apply(RequestOptions.circleCropTransform())
+            .into(img)
     }
 
     override fun glide(img: ImageView, res: Int) {
@@ -58,6 +62,14 @@ class ProfileActivity : AppCompatActivity(), IView {
         supportActionBar?.title = thisUser
 
         userArr = iModel.passObjArr()
+
+        //限動setting
+        Log.d("size", iModel.passShotPicArr().size.toString())
+        val avatarAdapter = Adapter(iModel.passShotPicArr(), this)
+        val layoutManager = LinearLayoutManager(this)
+        layoutManager.orientation = LinearLayoutManager.HORIZONTAL
+        r_viewProfile.adapter = avatarAdapter
+        r_viewProfile.layoutManager = layoutManager
 
         //profile setting
         tv_profile.text = userArr[currentUserNum].profile
