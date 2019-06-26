@@ -50,6 +50,7 @@ class PictureActivity : AppCompatActivity(), IView {
             .load(userArr[thisUserNum].contentPic.get(numClick))
             .into(img_content)
         tv_content.text = resources.getString(userArr[thisUserNum].content.get(numClick))
+        tv_like.text = userArr[thisUserNum].like.get(numClick).toString() + "個讚"
 
         tv_content.setOnClickListener {
             iPresenter.changeMaxLine(tv_content)

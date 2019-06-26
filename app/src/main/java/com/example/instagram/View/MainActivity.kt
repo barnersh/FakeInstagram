@@ -4,6 +4,7 @@ import android.content.Context
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
+import android.view.Menu
 import android.widget.ImageView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
@@ -21,6 +22,7 @@ class MainActivity : AppCompatActivity(), IView {
     val iPresenter: IPresenter = Presenter(this)
     val iModel: IModel = Model()
     lateinit var arrShotPic: Array<Int>
+
     companion object {
         val GRID = 0
         val ONE = 1
@@ -30,6 +32,7 @@ class MainActivity : AppCompatActivity(), IView {
         super.onBackPressed()
 
     }
+
     override fun glideCircle(img: ImageView, position: Int) {
         Glide
             .with(this)
@@ -52,6 +55,14 @@ class MainActivity : AppCompatActivity(), IView {
         iModel.objectInit(this)
         arrShotPic = iModel.passShotPicArr()
 
+        //toolbar
+        setSupportActionBar(toolbar_home)
+//        toolbar_home.setLogo(R.drawable.ins)
+        supportActionBar?.setDisplayShowTitleEnabled(false)
+        supportActionBar?.setLogo(R.drawable.ins)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setHomeAsUpIndicator(R.drawable.camera)
+
         //限時動態adapter
         val adapter = Adapter(arrShotPic, this)
         val layoutManager = LinearLayoutManager(this)
@@ -65,5 +76,10 @@ class MainActivity : AppCompatActivity(), IView {
         homeLayoutManager.orientation = LinearLayoutManager.VERTICAL
         home_view.adapter = homeAdapter
         home_view.layoutManager = homeLayoutManager
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_home, menu)
+        return true
     }
 }

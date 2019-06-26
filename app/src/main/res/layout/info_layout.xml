@@ -90,22 +90,22 @@
                 <Button
                         android:text="發送訊息"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" android:id="@+id/btn_message"
+                        android:layout_height="match_parent" android:id="@+id/btn_message"
                         android:layout_weight="0.8"/>
-                <Button
-                        android:id="@+id/btn_follow"
-                        android:background="@drawable/followed" android:layout_height="30dp"
-                        android:layout_width="30dp"/>
+                <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" app:srcCompat="@drawable/followed"
+                        android:id="@+id/imgbtn_follow" android:layout_weight="0.2"/>
             </LinearLayout>
             <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" android:layout_weight="0.8"
                     android:gravity="center">
-                <Button
-                        android:layout_width="30dp"
-                        android:layout_height="30dp" android:id="@+id/button4"
-                        android:background="@drawable/more" android:gravity="center"/>
+                <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" app:srcCompat="@drawable/more"
+                        android:id="@+id/imageButton2" android:layout_weight="1"/>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

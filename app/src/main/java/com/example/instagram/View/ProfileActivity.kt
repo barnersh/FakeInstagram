@@ -79,31 +79,31 @@ class ProfileActivity : AppCompatActivity(), IView {
         tv_following.text = userArr[currentUserNum].following.toString()
 
         var follow = userArr[currentUserNum].followed
-        btn_follow.setOnClickListener {
-            if (follow) {
-                AlertDialog.Builder(this)
-                    .setTitle("不要退追拉 霸脫")
-                    .setPositiveButton("退追拉幹") { dialog, which ->
-                        follow = !follow
-                        userArr[currentUserNum].followed = follow
-                        btn_message.visibility = View.INVISIBLE
-                        btn_follow.layoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT, 0F)
-                        btn_follow.text = "追追追"
-                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
-                            btn_follow.background = null
-                        }
-                    }
-                    .setNegativeButton("先不要..." ) {dialog, which ->  }
-                    .show()
-            } else {
-                follow = !follow
-                userArr[currentUserNum].followed = follow
-                btn_message.visibility = View.VISIBLE
-                btn_follow.layoutParams = LinearLayout.LayoutParams(65, 65 ,0F)
-                btn_follow.text = ""
-                btn_follow.setBackgroundResource(R.drawable.followed)
-            }
-        }
+//        btn_follow.setOnClickListener {
+//            if (follow) {
+//                AlertDialog.Builder(this)
+//                    .setTitle("不要退追拉 霸脫")
+//                    .setPositiveButton("退追拉幹") { dialog, which ->
+//                        follow = !follow
+//                        userArr[currentUserNum].followed = follow
+//                        btn_message.visibility = View.INVISIBLE
+//                        btn_follow.layoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT, 0F)
+//                        btn_follow.text = "追追追"
+//                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
+//                            btn_follow.background = null
+//                        }
+//                    }
+//                    .setNegativeButton("先不要..." ) {dialog, which ->  }
+//                    .show()
+//            } else {
+//                follow = !follow
+//                userArr[currentUserNum].followed = follow
+//                btn_message.visibility = View.VISIBLE
+//                btn_follow.layoutParams = LinearLayout.LayoutParams(65, 65 ,0F)
+//                btn_follow.text = ""
+//                btn_follow.setBackgroundResource(R.drawable.followed)
+//            }
+//        }
 
         val adapter = FragmentAdapter(supportFragmentManager)
         viewpager.adapter = adapter

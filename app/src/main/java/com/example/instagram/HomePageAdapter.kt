@@ -48,6 +48,7 @@ class HomePageAdapter(
         //get last item in array
         iView.glide(p0.img_content, objArr[p1].contentPic[0])
         p0.tv_content.setText(objArr[p1].content[0])
+        p0.tv_like.text = objArr[p1].like.get(0).toString() + "個讚"
         p0.tv_content.setOnClickListener {
             iPresenter.changeMaxLine(p0.tv_content)
         }
@@ -58,5 +59,6 @@ class HomePageAdapter(
         val tv_userName = v.findViewById<TextView>(R.id.tv_userName)
         val img_content = v.findViewById<ImageView>(R.id.img_content)
         val tv_content = v.findViewById<TextView>(R.id.tv_content)
+        val tv_like = v.findViewById<TextView>(R.id.tv_like)
     }
 }

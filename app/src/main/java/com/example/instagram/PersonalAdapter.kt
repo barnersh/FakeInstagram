@@ -53,6 +53,7 @@ class PersonalAdapter(val userArr: ArrayList<User>, val userNum: Int, val fragme
                 .load(userArr[userNum].contentPic.get(p1))
                 .into(p0.img_content)
             p0.tv_content.setText(userArr[userNum].content.get(p1))
+            p0.tv_like.text = userArr[userNum].like.get(p1).toString() + "個讚"
             p0.tv_content.setOnClickListener {
                 iPresenter.changeMaxLine(p0.tv_content)
             }
@@ -66,5 +67,6 @@ class PersonalAdapter(val userArr: ArrayList<User>, val userNum: Int, val fragme
         val tv_userName = v.findViewById<TextView>(R.id.tv_userName)
         val img_content = v.findViewById<ImageView>(R.id.img_content)
         val tv_content = v.findViewById<TextView>(R.id.tv_content)
+        val tv_like = v.findViewById<TextView>(R.id.tv_like)
     }
 }
