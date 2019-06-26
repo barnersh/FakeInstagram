@@ -18,12 +18,11 @@ import kotlinx.android.synthetic.main.homepage.*
 
 class PictureActivity : AppCompatActivity(), IView {
     //-------------------------------------------------------------
-    override fun showShotPic(img: ImageView, position: Int) {
+    override fun glideCircle(img: ImageView, position: Int) {
     }
 
     override fun glide(img: ImageView, res: Int) {
     }
-
     //--------------------------------------------------------------
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,6 +31,7 @@ class PictureActivity : AppCompatActivity(), IView {
         val iModel: IModel = Model()
         val iPresenter: IPresenter = Presenter(this)
 
+        //toolbar
         setSupportActionBar(toolbar_picture)
         supportActionBar?.title = "相片"
         supportActionBar?.setDisplayHomeAsUpEnabled(true)

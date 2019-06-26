@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity(), IView {
         super.onBackPressed()
 
     }
-    override fun showShotPic(img: ImageView, position: Int) {
+    override fun glideCircle(img: ImageView, position: Int) {
         Glide
             .with(this)
             .load(arrShotPic[position])

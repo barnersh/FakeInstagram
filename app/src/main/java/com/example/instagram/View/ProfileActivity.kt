@@ -24,7 +24,7 @@ var thisUser = ""
 
 class ProfileActivity : AppCompatActivity(), IView {
     //**********************************************************************
-    override fun showShotPic(img: ImageView, position: Int) {
+    override fun glideCircle(img: ImageView, position: Int) {
     }
 
     override fun glide(img: ImageView, res: Int) {
@@ -59,12 +59,6 @@ class ProfileActivity : AppCompatActivity(), IView {
         viewpager.adapter = adapter
         tab.setupWithViewPager(viewpager)
         setTabLayoutIcon()
-
-//        val gridAdapter = PersonalAdapter(userArr[currentUser].contentPic, this)
-//        val gridLayoutManager = GridLayoutManager(this, 3)
-//        gridLayoutManager.orientation = GridLayoutManager.HORIZONTAL
-//        r_viewGrid.adapter = gridAdapter
-//        r_viewGrid.layoutManager = gridLayoutManager
     }
 
     fun setTabLayoutIcon() {

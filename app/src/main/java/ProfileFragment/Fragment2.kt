@@ -34,7 +34,7 @@ private const val ARG_PARAM2 = "param2"
  */
 class Fragment2 : Fragment(), IView {
     //--------------------------------------------------------------
-    override fun showShotPic(img: ImageView, position: Int) {
+    override fun glideCircle(img: ImageView, position: Int) {
     }
 
     override fun glide(img: ImageView, res: Int) {

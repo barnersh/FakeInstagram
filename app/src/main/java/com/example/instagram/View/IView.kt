@@ -5,6 +5,6 @@ import android.widget.ImageView
 
 interface IView {
     //use by view
-    fun showShotPic(img: ImageView, position: Int)
+    fun glideCircle(img: ImageView, position: Int)
     fun glide(img: ImageView, res: Int)
 }

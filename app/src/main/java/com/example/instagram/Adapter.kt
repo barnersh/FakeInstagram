@@ -18,7 +18,7 @@ class Adapter(val arr: Array<Int>, val iView: IView) : RecyclerView.Adapter<Adap
 
     override fun onBindViewHolder(p0: ViewHolder, p1: Int) {
 //        p0.shot.setImageResource(arr[p1])
-        iView.showShotPic(p0.img, p1)
+        iView.glideCircle(p0.img, p1)
     }
 
     class ViewHolder(v: View) : RecyclerView.ViewHolder(v) {
