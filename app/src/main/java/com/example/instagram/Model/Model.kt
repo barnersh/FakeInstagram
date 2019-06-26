@@ -10,7 +10,11 @@ data class User(
     val name: String,
     val profile: String,
     val contentPic: Array<Int>,
-    val content: Array<Int>
+    val content: Array<Int>,
+    val post: Int,
+    val follows: Int,
+    val following: Int,
+    var followed: Boolean
 )
 
 val objArr = ArrayList<User>()
@@ -120,8 +124,12 @@ class Model : IModel {
                 objContent.set(i, contentArr[random])
             }
 
+            val post = Random.nextInt(2000)
+            val follows = Random.nextInt(20000)
+            val following = Random.nextInt(200)
+
             Log.d("random", "picNum: $picNum , contentNum: $contentNum")
-            val user = User(shotPicArr[i], userArr[i], context.getString(profileArr[i]), objPicContent, objContent)
+            val user = User(shotPicArr[i], userArr[i], context.getString(profileArr[i]), objPicContent, objContent, post, follows, following, true)
             objArr.add(user)
         }
     }
