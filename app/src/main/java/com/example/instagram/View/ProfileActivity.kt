@@ -24,6 +24,7 @@ import com.example.instagram.Presenter.IPresenter
 import com.example.instagram.Presenter.Presenter
 import com.example.instagram.R
 import kotlinx.android.synthetic.main.activity_profile.*
+import kotlinx.android.synthetic.main.info_layout.*
 
 var thisUser = ""
 

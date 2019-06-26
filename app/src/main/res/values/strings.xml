@@ -3,83 +3,83 @@
     <string name="action_settings">Settings</string>
 
     <string name="profile1">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Suspendisse quis nibh bibendum, malesuada tellus non, tempor risus.
-        Ut nec mi id mauris varius euismod ut vel velit.
-        Nulla vitae lectus sed erat tincidunt interdum ut sit amet lacus.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n
+        Suspendisse quis nibh bibendum, malesuada tellus non, tempor risus.\n
+        Ut nec mi id mauris varius euismod ut vel velit.\n
+        Nulla vitae lectus sed erat tincidunt interdum ut sit amet lacus.\n
     </string>
-    <string name="profile2">Nam dignissim arcu sed nulla condimentum efficitur.
-        In finibus tortor vel nisi hendrerit volutpat.
-        Mauris non nulla blandit felis lacinia pretium ut eget magna.
-        Morbi non eros eu massa interdum vehicula ac ut enim.
-        Vestibulum vel lacus et est dictum malesuada eu dapibus lorem.
+    <string name="profile2">Nam dignissim arcu sed nulla condimentum efficitur.\n
+        In finibus tortor vel nisi hendrerit volutpat.\n
+        Mauris non nulla blandit felis lacinia pretium ut eget magna.\n
+        Morbi non eros eu massa interdum vehicula ac ut enim.\n
+        Vestibulum vel lacus et est dictum malesuada eu dapibus lorem.\n
     </string>
-    <string name="profile3">In ac elit sit amet odio tempor congue sed et elit.
-        Nunc facilisis lectus at neque sollicitudin, et varius dui mattis.
-        Pellentesque varius nibh sed ultricies venenatis.
+    <string name="profile3">In ac elit sit amet odio tempor congue sed et elit.\n
+        Nunc facilisis lectus at neque sollicitudin, et varius dui mattis.\n
+        Pellentesque varius nibh sed ultricies venenatis.\n
     </string>
-    <string name="profile4">Quisque rhoncus erat a placerat lacinia.
-        Donec vitae urna tempor, egestas tellus at, lobortis urna.
-        Vestibulum ac justo sit amet magna semper interdum ut eu purus.
-        Fusce vitae nisi vel nisi varius convallis.
-        Aenean eget ligula egestas, condimentum risus at, dignissim arcu.
-        Ut interdum purus sed eros congue, sed fringilla enim semper.
+    <string name="profile4">Quisque rhoncus erat a placerat lacinia.\n
+        Donec vitae urna tempor, egestas tellus at, lobortis urna.\n
+        Vestibulum ac justo sit amet magna semper interdum ut eu purus.\n
+        Fusce vitae nisi vel nisi varius convallis.\n
+        Aenean eget ligula egestas, condimentum risus at, dignissim arcu.\n
+        Ut interdum purus sed eros congue, sed fringilla enim semper.\n
     </string>
-    <string name="profile5">Etiam gravida ante id tortor interdum, et facilisis mi posuere.
-        Pellentesque at ligula et turpis varius mollis.
+    <string name="profile5">Etiam gravida ante id tortor interdum, et facilisis mi posuere.\n
+        Pellentesque at ligula et turpis varius mollis.\n
     </string>
-    <string name="profile6">Morbi sit amet tellus malesuada, convallis nulla ut, consectetur odio.
-        Donec vulputate tellus vestibulum ligula tincidunt, vel rhoncus nunc condimentum.
-        Aliquam ut nulla gravida, ullamcorper ante laoreet, tincidunt nisi.
-        Suspendisse aliquam lectus eget mollis efficitur.
-        Curabitur quis tortor sit amet libero eleifend consectetur.
+    <string name="profile6">Morbi sit amet tellus malesuada, convallis nulla ut, consectetur odio.\n
+        Donec vulputate tellus vestibulum ligula tincidunt, vel rhoncus nunc condimentum.\n
+        Aliquam ut nulla gravida, ullamcorper ante laoreet, tincidunt nisi.\n
+        Suspendisse aliquam lectus eget mollis efficitur.\n
+        Curabitur quis tortor sit amet libero eleifend consectetur.\n
     </string>
     <string name="profile7">Nulla tempus erat vitae lacinia ultricies.</string>
-    <string name="profile8">Proin vestibulum urna ut justo ornare, maximus luctus diam dignissim.
-        Mauris tempus quam vel mollis tristique.
-        Vivamus eu nulla at erat efficitur volutpat.
-        Vestibulum eu sem eu sem cursus rutrum eu vitae sapien.
-        Cras pretium sem sit amet sodales scelerisque.
+    <string name="profile8">Proin vestibulum urna ut justo ornare, maximus luctus diam dignissim.\n
+        Mauris tempus quam vel mollis tristique.\n
+        Vivamus eu nulla at erat efficitur volutpat.\n
+        Vestibulum eu sem eu sem cursus rutrum eu vitae sapien.\n
+        Cras pretium sem sit amet sodales scelerisque.\n
     </string>
-    <string name="profile9">Fusce dapibus nisl vel ligula auctor, a ultrices augue volutpat.
-        Praesent mattis eros a ligula tristique pretium.
-        Quisque quis ligula suscipit enim lobortis interdum suscipit posuere est.
-        Phasellus sodales nunc at dolor laoreet, id congue enim fermentum.
-        Morbi ut eros sed augue condimentum lobortis vitae et nisi.
-        Nulla in felis ut odio ultrices commodo.
+    <string name="profile9">Fusce dapibus nisl vel ligula auctor, a ultrices augue volutpat.\n
+        Praesent mattis eros a ligula tristique pretium.\n
+        Quisque quis ligula suscipit enim lobortis interdum suscipit posuere est.\n
+        Phasellus sodales nunc at dolor laoreet, id congue enim fermentum.\n
+        Morbi ut eros sed augue condimentum lobortis vitae et nisi.\n
+        Nulla in felis ut odio ultrices commodo.\n
     </string>
-    <string name="profile10">Donec eget massa eget dolor mollis suscipit.
-        Nunc accumsan est eu est pretium, dictum pharetra urna facilisis.
+    <string name="profile10">Donec eget massa eget dolor mollis suscipit.\n
+        Nunc accumsan est eu est pretium, dictum pharetra urna facilisis.\n
     </string>
-    <string name="profile11">Nulla vitae turpis et lorem commodo convallis sit amet nec arcu.
-        Praesent tempor tortor nec rhoncus posuere.
+    <string name="profile11">Nulla vitae turpis et lorem commodo convallis sit amet nec arcu.\n
+        Praesent tempor tortor nec rhoncus posuere.\n
     </string>
-    <string name="profile12">Integer volutpat justo eget nulla lobortis venenatis.
-        Morbi dignissim sem ut luctus auctor.
-        Suspendisse vitae mi non turpis elementum molestie vel vel odio.
+    <string name="profile12">Integer volutpat justo eget nulla lobortis venenatis.\n
+        Morbi dignissim sem ut luctus auctor.\n
+        Suspendisse vitae mi non turpis elementum molestie vel vel odio.\n
     </string>
-    <string name="profile13">Sed laoreet felis a convallis vestibulum.
-        Sed quis mauris venenatis, faucibus velit vitae, blandit magna.
-        Mauris iaculis felis a enim varius semper.
+    <string name="profile13">Sed laoreet felis a convallis vestibulum.\n
+        Sed quis mauris venenatis, faucibus velit vitae, blandit magna.\n
+        Mauris iaculis felis a enim varius semper.\n
     </string>
-    <string name="profile14">Duis molestie purus quis enim ultricies, quis condimentum dui lobortis.
-        Nulla vehicula lacus eu accumsan pharetra.
-        Maecenas euismod orci eget enim rutrum, vitae placerat ligula porta.
-        Cras fermentum ligula a purus laoreet cursus.
-        Fusce tempus magna lacinia dolor convallis tincidunt.
+    <string name="profile14">Duis molestie purus quis enim ultricies, quis condimentum dui lobortis.\n
+        Nulla vehicula lacus eu accumsan pharetra.\n
+        Maecenas euismod orci eget enim rutrum, vitae placerat ligula porta.\n
+        Cras fermentum ligula a purus laoreet cursus.\n
+        Fusce tempus magna lacinia dolor convallis tincidunt.\n
     </string>
-    <string name="profile15">Duis egestas massa vulputate, consequat nisl at, tincidunt libero.
-        Nullam eget enim sit amet purus semper volutpat et dapibus nisl.
-        Nunc non diam a metus pretium porttitor ac id enim.
-        Vivamus feugiat velit sed tortor volutpat accumsan.
+    <string name="profile15">Duis egestas massa vulputate, consequat nisl at, tincidunt libero.\n
+        Nullam eget enim sit amet purus semper volutpat et dapibus nisl.\n
+        Nunc non diam a metus pretium porttitor ac id enim.\n
+        Vivamus feugiat velit sed tortor volutpat accumsan.\n
     </string>
-    <string name="profile16">Quisque vel quam scelerisque, commodo urna auctor, ultrices elit.
-        Mauris vulputate turpis sit amet pulvinar dictum.
-        Fusce commodo est eu lectus auctor ultrices.
-        Quisque pulvinar enim id dui venenatis, ac ullamcorper mi semper.
+    <string name="profile16">Quisque vel quam scelerisque, commodo urna auctor, ultrices elit.\n
+        Mauris vulputate turpis sit amet pulvinar dictum.\n
+        Fusce commodo est eu lectus auctor ultrices.\n
+        Quisque pulvinar enim id dui venenatis, ac ullamcorper mi semper.\n
     </string>
-    <string name="profile17">Aliquam sed lorem nec eros lacinia pulvinar.
-        In vel lectus commodo, mattis mauris at, tristique dolor.
+    <string name="profile17">Aliquam sed lorem nec eros lacinia pulvinar.\n
+        In vel lectus commodo, mattis mauris at, tristique dolor.\n
     </string>
     <string name="profile18">Nam vehicula ligula ut molestie laoreet.</string>
     <string name="profile19">Phasellus gravida leo vel lorem suscipit, sollicitudin iaculis orci commodo.</string>
